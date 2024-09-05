@@ -1,6 +1,7 @@
 ---
 tags:
   - grammar
+  - verbs
   - index
 aliases:
   - Verbs

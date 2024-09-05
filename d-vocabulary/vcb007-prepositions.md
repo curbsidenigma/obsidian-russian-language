@@ -1,6 +1,7 @@
 ---
 tags:
   - vocabulary
+  - prepositions
   - index
 aliases:
   - Prepositions

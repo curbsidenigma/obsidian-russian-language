@@ -1,6 +1,7 @@
 ---
 tags:
   - grammar
+  - adjectives
   - index
 aliases:
   - Adjectives

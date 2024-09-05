@@ -1,6 +1,7 @@
 ---
 tags:
   - grammar
+  - nouns
   - index
 aliases:
   - Nouns

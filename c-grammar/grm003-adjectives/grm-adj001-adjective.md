@@ -2,9 +2,8 @@
 tags:
   - grammar
   - adjectives
-  - index
 aliases:
-  - Comparative Degree
+  - Adjective
 ---
-# Comparative Degree
+# Adjective
 ---

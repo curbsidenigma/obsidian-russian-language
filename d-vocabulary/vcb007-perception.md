@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - prepositions
   - index
 aliases:
-  - Prepositions
+  - Perception
 ---
-# Prepositions
+# Perception
 ---

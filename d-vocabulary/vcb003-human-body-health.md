@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - verbs
   - index
 aliases:
-  - Verbs
+  - Human body and health
 ---
-# Verbs
+# Human body and health
 ---

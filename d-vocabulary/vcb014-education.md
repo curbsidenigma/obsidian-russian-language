@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - conjunctions
   - index
 aliases:
-  - Conjunctions
+  - Education
 ---
-# Conjunctions
+# Education
 ---

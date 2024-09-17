@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - particles
   - index
 aliases:
-  - Particles
+  - Physical world
 ---
-# Particles
+# Physical world
 ---

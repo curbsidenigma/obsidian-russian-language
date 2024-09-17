@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - numerals
   - index
 aliases:
-  - Numerals
+  - Leisure
 ---
-# Numerals
+# Leisure
 ---

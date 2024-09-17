@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - pronouns
   - index
 aliases:
-  - Pronouns
+  - Business and commerce
 ---
-# Pronouns
+# Business and commerce
 ---

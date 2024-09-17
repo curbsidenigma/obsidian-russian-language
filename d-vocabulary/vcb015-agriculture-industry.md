@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - adverbs
   - index
 aliases:
-  - Adverbs
+  - Agriculture. Industry
 ---
-# Adverbs
+# Agriculture. Industry
 ---

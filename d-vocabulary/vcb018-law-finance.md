@@ -1,10 +1,9 @@
 ---
 tags:
   - vocabulary
-  - adjectives
   - index
 aliases:
-  - Adjectives
+  - Law and finance
 ---
-# Adjectives
+# Law and finance
 ---

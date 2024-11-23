@@ -12,7 +12,7 @@ aliases:
 2. Animacy
 3. Nouns which are used only in the singular
 4. Nouns which have a plural form only
-5. Declension chart
+5. [[grm-nns-gdr005-declension-chart|Declension chart]]
 6. First declension: masculine nouns
 7. Fleeting vowel
 8. Partitive genitive in -у/-ю

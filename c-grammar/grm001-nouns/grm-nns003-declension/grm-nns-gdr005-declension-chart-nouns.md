@@ -3,9 +3,9 @@ tags:
   - grammar
   - nouns
 aliases:
-  - Declension chart
+  - Declension chart (nouns)
 ---
-# Declension chart
+# Declension chart (nouns)
 ---
 The following chart shows, in simplified form, the declension pattern in all three declensions.
 ## Masculine

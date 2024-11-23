@@ -1,5 +1,6 @@
 ---
 tags:
+  - grammar
   - nouns
 aliases:
   - Masculine, feminine and neuter

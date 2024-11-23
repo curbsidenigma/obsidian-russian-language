@@ -8,7 +8,7 @@ aliases:
 ---
 # Gender
 ---
-1. Masculine, feminine and neuter
+1. [[grm-nns-gdr001-masculine-feminine-neuter|Masculine, feminine and neuter]]
 2. Masculine nouns
 3. Feminine nouns
 4. Soft-sign nouns

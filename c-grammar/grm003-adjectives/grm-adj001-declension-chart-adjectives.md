@@ -4,6 +4,7 @@ tags:
   - adjectives
 aliases:
   - Declension chart (adjectives)
+parent: "[[grm003-adjectives|Adjectives]]"
 ---
 # Declension chart (adjectives)
 ---

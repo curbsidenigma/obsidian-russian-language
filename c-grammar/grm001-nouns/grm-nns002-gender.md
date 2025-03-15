@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Gender
+parent: "[[grm001-nouns|Nouns]]"
 ---
 # Gender
 ---

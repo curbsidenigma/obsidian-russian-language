@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Case Usage
+parent: "[[grm001-nouns|Nouns]]"
 ---
 # Case Usage
 ---

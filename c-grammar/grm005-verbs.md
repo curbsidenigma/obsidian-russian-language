@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Verbs
+parent: "[[c-grammar|Grammar]]"
 ---
 # Verbs
 ---

@@ -4,6 +4,7 @@ tags:
   - nouns
 aliases:
   - Declension chart (nouns)
+parent: "[[grm-nns003-declension|Declension]]"
 ---
 # Declension chart (nouns)
 ---

@@ -4,6 +4,7 @@ tags:
   - nouns
 aliases:
   - Masculine nouns
+parent: "[[grm-nns002-gender|Gender]]"
 ---
 # Masculine nouns
 ---

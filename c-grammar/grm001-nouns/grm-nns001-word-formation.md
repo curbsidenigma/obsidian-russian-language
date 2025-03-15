@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Word Formation
+parent: "[[grm001-nouns|Nouns]]"
 ---
 # Word Formation
 ---

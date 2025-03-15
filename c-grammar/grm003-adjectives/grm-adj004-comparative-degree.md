@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Comparative Degree
+parent: "[[grm003-adjectives|Adjectives]]"
 ---
 # Comparative Degree
 ---

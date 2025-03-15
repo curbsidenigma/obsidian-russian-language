@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Superlative Degree
+parent: "[[grm003-adjectives|Adjectives]]"
 ---
 # Superlative Degree
 ---

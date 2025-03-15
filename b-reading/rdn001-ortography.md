@@ -4,6 +4,7 @@ tags:
   - index
 aliases:
   - Orthography
+parent: "[[b-reading|Reading]]"
 ---
 # Orthography
 ---

@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Particles
+parent: "[[c-grammar|Grammar]]"
 ---
 # Particles
 ---

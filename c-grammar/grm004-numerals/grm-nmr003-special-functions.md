@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Special Functions
+parent: "[[grm004-numerals|Numerals]]"
 ---
 # Special Functions
 ---

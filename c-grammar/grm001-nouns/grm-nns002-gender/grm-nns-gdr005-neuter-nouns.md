@@ -4,6 +4,7 @@ tags:
   - nouns
 aliases:
   - Neuter nouns
+parent: "[[grm-nns002-gender|Gender]]"
 ---
 # Neuter nouns
 ---

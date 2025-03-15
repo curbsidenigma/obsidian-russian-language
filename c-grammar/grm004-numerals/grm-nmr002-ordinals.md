@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Ordinals
+parent: "[[grm004-numerals|Numerals]]"
 ---
 # Ordinals
 ---

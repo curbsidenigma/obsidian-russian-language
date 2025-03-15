@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Pronouns
+parent: "[[c-grammar|Grammar]]"
 ---
 # Pronouns
 ---

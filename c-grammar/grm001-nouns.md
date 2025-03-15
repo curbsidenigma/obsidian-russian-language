@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Nouns
+parent: "[[c-grammar|Grammar]]"
 ---
 # Nouns
 ---

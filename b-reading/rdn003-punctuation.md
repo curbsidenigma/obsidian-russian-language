@@ -4,6 +4,7 @@ tags:
   - index
 aliases:
   - Punctuation
+parent: "[[b-reading|Reading]]"
 ---
 # Punctuation
 ---

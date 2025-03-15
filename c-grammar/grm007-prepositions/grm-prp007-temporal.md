@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Temporal
+parent: "[[grm007-prepositions|Prepositions]]"
 ---
 # Temporal
 ---

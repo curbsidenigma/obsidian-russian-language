@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Long Form
+parent: "[[grm003-adjectives|Adjectives]]"
 ---
 # Long Form
 ---

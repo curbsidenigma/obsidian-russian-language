@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Diminutive and Augmentative
+parent: "[[grm001-nouns|Nouns]]"
 ---
 # Diminutive and Augmentative
 ---

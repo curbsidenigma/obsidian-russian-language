@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Numerals
+parent: "[[c-grammar|Grammar]]"
 ---
 # Numerals
 ---

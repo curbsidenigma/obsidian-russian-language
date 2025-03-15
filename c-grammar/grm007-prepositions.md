@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Prepositions
+parent: "[[c-grammar|Grammar]]"
 ---
 # Prepositions
 ---

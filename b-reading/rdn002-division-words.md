@@ -4,6 +4,7 @@ tags:
   - index
 aliases:
   - Division of Words
+parent: "[[b-reading|Reading]]"
 ---
 # Division of Words
 ---

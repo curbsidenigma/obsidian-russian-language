@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Adverbs
+parent: "[[c-grammar|Grammar]]"
 ---
 # Adverbs
 ---

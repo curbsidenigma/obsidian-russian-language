@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Conjunction
+parent: "[[grm008-conjunctions|Conjunctions]]"
 ---
 # Conjunction
 ---

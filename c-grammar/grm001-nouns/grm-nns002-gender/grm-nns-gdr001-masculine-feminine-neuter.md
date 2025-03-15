@@ -4,6 +4,7 @@ tags:
   - nouns
 aliases:
   - Masculine, feminine and neuter
+parent: "[[grm-nns002-gender|Gender]]"
 ---
 # Masculine, feminine and neuter
 ---

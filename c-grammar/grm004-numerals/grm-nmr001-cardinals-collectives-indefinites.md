@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Cardinal, Collective and Indefinite
+parent: "[[grm004-numerals|Numerals]]"
 ---
 # Cardinals, Collectives and Indefinites
 ---

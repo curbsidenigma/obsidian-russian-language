@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Participles
+parent: "[[grm005-verbs|Verbs]]"
 ---
 # Participles
 ---

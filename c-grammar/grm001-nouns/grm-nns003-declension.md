@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Declension
+parent: "[[grm001-nouns|Nouns]]"
 ---
 # Declension
 ---

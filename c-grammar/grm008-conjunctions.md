@@ -5,6 +5,7 @@ tags:
   - index
 aliases:
   - Conjunctions
+parent: "[[c-grammar|Grammar]]"
 ---
 # Conjunctions
 ---

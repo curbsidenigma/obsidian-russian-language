@@ -9,6 +9,28 @@ parent: "[[c-grammar|Grammar]]"
 ---
 # Numerals
 ---
-1. [[grm-nmr001-cardinals-collectives-indefinites|Cardinals, Collectives and Indefinites]]
-2. [[grm-nmr002-ordinals|Ordinals]]
-3. [[grm-nmr003-special-functions|Special Functions]]
+```dataviewjs
+// Get property parent from path
+const getParent = (path) => String(dv.page(path).file.frontmatter.parent)
+// Get property aliases from path
+const getAlias = (path) => String(dv.page(path).file.aliases).slice(1,-1)
+
+// Set current file
+const current = dv.current().file
+// Set folder string named after the current file
+const folder = `"${String(current.path).slice(0,-3)}"`
+// Set array of file paths whose parent is the current file
+const paths = dv.pagePaths(folder).where(
+	path => getParent(path) == `[[${current.name}|${getAlias(current.path)}]]`
+)
+
+// Set index list class name
+dv.container.className += ' index'
+// Render list of links
+dv.list(
+	paths.sort(path => dv.page(path).file.name)
+	.map(
+		path => dv.fileLink(path, false, getAlias(path))
+	)
+)
+```

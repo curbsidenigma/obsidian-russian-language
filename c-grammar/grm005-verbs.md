@@ -9,13 +9,28 @@ parent: "[[c-grammar|Grammar]]"
 ---
 # Verbs
 ---
-1. [[grm-vrb001-conjugation|Conjugation]]
-2. [[grm-vrb002-aspect|Aspect]]
-3. [[grm-vrb003-reflexive|Reflexive]]
-4. [[grm-vrb004-impersonal-constructions|Impersonal Constructions]]
-5. [[grm-vrb005-passive-voice|Passive Voice]]
-6. [[grm-vrb006-conditional-subjunctive|Conditional and Subjunctive]]
-7. [[grm-vrb007-obligation-possibility|Obligation and Possibility]]
-8. [[grm-vrb008-motion|Motion]]
-9. [[grm-vrb009-participles|Participles]]
-10. [[grm-vrb010-gerunds|Gerunds]]
+```dataviewjs
+// Get property parent from path
+const getParent = (path) => String(dv.page(path).file.frontmatter.parent)
+// Get property aliases from path
+const getAlias = (path) => String(dv.page(path).file.aliases).slice(1,-1)
+
+// Set current file
+const current = dv.current().file
+// Set folder string named after the current file
+const folder = `"${String(current.path).slice(0,-3)}"`
+// Set array of file paths whose parent is the current file
+const paths = dv.pagePaths(folder).where(
+	path => getParent(path) == `[[${current.name}|${getAlias(current.path)}]]`
+)
+
+// Set index list class name
+dv.container.className += ' index'
+// Render list of links
+dv.list(
+	paths.sort(path => dv.page(path).file.name)
+	.map(
+		path => dv.fileLink(path, false, getAlias(path))
+	)
+)
+```

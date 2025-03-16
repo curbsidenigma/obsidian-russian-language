@@ -26,7 +26,7 @@ const paths = dv.pagePaths(folder).where(
 dv.container.className += ' index'
 // Render list of links
 dv.list(
-	paths.sort(path => path.name)
+	paths.sort(path => dv.page(path).file.name)
 	.map(
 		path => dv.fileLink(path, false, getAlias(path))
 	)

@@ -4,6 +4,7 @@ tags:
   - index
 aliases:
   - Leisure
+parent: "[[d-vocabulary|Vocabulary]]"
 ---
 # Leisure
 ---

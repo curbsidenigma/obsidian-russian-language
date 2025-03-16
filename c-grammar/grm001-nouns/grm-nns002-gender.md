@@ -9,19 +9,28 @@ parent: "[[grm001-nouns|Nouns]]"
 ---
 # Gender
 ---
-1. [[grm-nns-gdr001-masculine-feminine-neuter|Masculine, feminine and neuter]]
-2. [[grm-nns-gdr002-masculine-nouns|Masculine nouns]]
-3. [[grm-nns-gdr003-feminine-nouns|Feminine nouns]]
-4. Soft-sign nouns
-5. [[grm-nns-gdr005-neuter-nouns|Neuter nouns]]
-6. Common gender
-7. Indeclinable nouns of foreign origin
-8. Indeclinable place names
-9. Titles of books etc.
-10. Acronyms
-11. Alphabetisms
-12. Stump compounds
-13. Compound hyphenated nouns
-14. Differentiation of gender through suffixes
-15. Professions
-16. Animals
+```dataviewjs
+// Get property parent from path
+const getParent = (path) => String(dv.page(path).file.frontmatter.parent)
+// Get property aliases from path
+const getAlias = (path) => String(dv.page(path).file.aliases).slice(1,-1)
+
+// Set current file
+const current = dv.current().file
+// Set folder string named after the current file
+const folder = `"${String(current.path).slice(0,-3)}"`
+// Set array of file paths whose parent is the current file
+const paths = dv.pagePaths(folder).where(
+	path => getParent(path) == `[[${current.name}|${getAlias(current.path)}]]`
+)
+
+// Set index list class name
+dv.container.className += ' index'
+// Render list of links
+dv.list(
+	paths.sort(path => dv.page(path).file.name)
+	.map(
+		path => dv.fileLink(path, false, getAlias(path))
+	)
+)
+```

@@ -4,6 +4,7 @@ tags:
   - index
 aliases:
   - Perception
+parent: "[[d-vocabulary|Vocabulary]]"
 ---
 # Perception
 ---

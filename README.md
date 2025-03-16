@@ -1,3 +1,7 @@
+---
+tags:
+  - index
+---
 # Obsidian Russian Language
 ---
 This vault contains the topics I used to learn Russian language.

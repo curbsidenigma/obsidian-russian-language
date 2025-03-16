@@ -3,6 +3,7 @@ tags:
   - index
 aliases:
   - Speaking
+parent: "[[README]]"
 ---
 # Speaking
 ---

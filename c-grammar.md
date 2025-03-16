@@ -3,15 +3,32 @@ tags:
   - index
 aliases:
   - Grammar
+parent: "[[README]]"
 ---
 # Grammar
 ---
-1. [[grm001-nouns|Nouns]]
-2. [[grm002-pronouns|Pronouns]]
-3. [[grm003-adjectives|Adjectives]]
-4. [[grm004-numerals|Numerals]]
-5. [[grm005-verbs|Verbs]]
-6. [[grm006-adverbs|Adverbs]]
-7. [[grm007-prepositions|Prepositions]]
-8. [[grm008-conjunctions|Conjunctions]]
-9. [[grm009-particles|Particles]]
+```dataviewjs
+// Get property parent from path
+const getParent = (path) => String(dv.page(path).file.frontmatter.parent)
+// Get property aliases from path
+const getAlias = (path) => String(dv.page(path).file.aliases).slice(1,-1)
+
+// Set current file
+const current = dv.current().file
+// Set folder string named after the current file
+const folder = `"${String(current.path).slice(0,-3)}"`
+// Set array of file paths whose parent is the current file
+const paths = dv.pagePaths(folder).where(
+	path => getParent(path) == `[[${current.name}|${getAlias(current.path)}]]`
+)
+
+// Set index list class name
+dv.container.className += ' index'
+// Render list of links
+dv.list(
+	paths.sort(path => path.name)
+	.map(
+		path => dv.fileLink(path, false, getAlias(path))
+	)
+)
+```
